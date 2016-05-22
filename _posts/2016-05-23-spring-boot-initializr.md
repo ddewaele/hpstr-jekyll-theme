@@ -1,6 +1,13 @@
 ---
+layout: post
 title: Quickstart your SpringBoot with Spring Initializr
-date: 2016-05-21T00:51:52+02:00
+description: "A quick overview of the excellent Spring Initializr CLI"
+modified: 2016-05-23
+tags: [sample post]
+image:
+  feature: abstract-3.jpg
+  credit: ddewaele
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 #Introduction
