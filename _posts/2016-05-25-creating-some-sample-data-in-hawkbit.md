@@ -25,7 +25,7 @@ The mgmt api client contains a `org.eclipse.hawkbit.mgmt.client.scenarios.Gettin
 
 We start with software module types and software modules
 
-![](/assets/images/upload_mgmt.png)
+![]({{ site.url }}/assets/images/upload_mgmt.png)
 
 Hawkbit comes with a `SoftwareModuleTypeResourceClient` that we can use to create softwaremoduletypes
 
@@ -41,7 +41,7 @@ public interface SoftwareModuleTypeResourceClient extends SoftwareModuleTypeRest
 
 We start by creating 3 software module types. A software module type is simply a name.
 
-![](/assets/images/software_module_types.png)
+![]({{ site.url }}/assets/images/software_module_types.png)
 
 Note : Unclear at this point what the firmware / software distinction refers to.
 
@@ -104,7 +104,7 @@ The Distribution Set Type defines what type of Software Module Types we can assi
 
 Note : Discuss manadatory / optional components.
 
-![](/assets/images/distribution_set_type.png)
+![]({{ site.url }}/assets/images/distribution_set_type.png)
 
 Here we are going to create 5 different distribution set types. They represent some combinations that we'll allow.
 
@@ -164,7 +164,7 @@ distributionSetTypeResource.createDistributionSetTypes(new DistributionSetTypeBu
 
 An actual distribution set is based on the types above.
 
-![](/assets/images/distribution_set1.png)
+![]({{ site.url }}/assets/images/distribution_set1.png)
 
 ```java
 final String dsName1= "IxorTalk full distribution";
